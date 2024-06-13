@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #b24b85;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #4CAF50;
+}
+
+main {
+    padding: 3em 0;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#about {
+    background: #fff;
+    padding: 3em 0;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1em;
+}
+
+#about .text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#skills {
+    background: #f4f4f4;
+}
+
+#skills .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1em;
+}
+
+#skills .skill {
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#skills .skill:hover {
+    transform: scale(1.05);
+}
+
+#projects {
+    background: #fff;
+}
+
+#projects .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+#resume {
+    background: #f4f4f4;
+}
+
+#resume a {
+    display: inline-block;
+    background: #b4468b;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+#contact {
+    background: #fff;
+}
+
+#contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    max-width: 600px;
+    margin: 0 au
+}
